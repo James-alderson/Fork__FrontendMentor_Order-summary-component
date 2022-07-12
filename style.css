@@ -1,0 +1,218 @@
+body{
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Red Hat Display;
+   
+    height: 100vh;
+}
+
+.container{
+    width: 450px;
+}
+
+.sub-container {
+    background-color: white;
+    border-collapse: separate;
+    border-radius: 20px;
+}
+
+.hero-image{
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    
+} 
+
+.content-container {  
+    text-align: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.heading1{
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    font-size: 28px;
+}
+
+.content {
+    font-size: 16px;
+    padding: 0 25px 0 25px;
+    color: hsl(224, 23%, 55%);
+}
+
+.box-container {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    margin: 20px 0;
+}
+
+.parent-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5px;
+    margin: 0 15px ;
+}
+
+.annual {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    margin-top: 0;
+}
+
+.change{
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.change:hover{
+    color:#746df2;
+    text-decoration: none;
+}
+
+button {
+text-align: center;
+ margin: 10px 0;
+ border: none;
+ border-radius: 10px;
+ width: 350px;
+ height: 45px;
+ font-size: 1em;
+ font-weight: 700;
+ color: white;
+ font-family: Red Hat Display;
+ background-color: rgba(56,42,225,255);
+ box-shadow:  0 25px 15px -10px #dbd8fa;
+ cursor: pointer;
+}
+
+button:hover{
+    background-color: #746df2;
+}
+
+.cancel-order{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.cancel-order:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+.attribution { 
+    margin: 20px;
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 1440px){
+    
+    body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    }
+}
+
+@media (max-width:500px){
+
+    .container{
+        width: 400px;
+    }
+
+    .hero-image{
+        width: 400px;
+    }
+    .content-container {  
+        padding: 20px 30px 20px 30px;
+    }
+    .content {
+        padding: 0 15px 0 15px;
+    }
+}
+
+@media (max-width:450px){
+
+    .container{
+        width: 375px;
+    }
+
+    .hero-image{
+        width: 375px;
+    }
+    .content-container {  
+        padding: 20px 20px 20px 20px;
+    }
+    .content {
+        padding: 0 12px 0 12px;
+    }
+
+    .box-container {
+        padding: 0 15px 0 15px;
+        margin: 15px 0;
+    }
+
+    button {
+         width: 320px;
+        }
+
+}
+
+@media (max-width:400px){
+
+    .container{
+        width: 350px;
+    }
+
+    .hero-image{
+        width: 350px;
+    }
+    .content-container {  
+        padding: 20px 20px 20px 20px;
+    }
+    .content {
+        padding: 0 18px 0 18px;
+    }
+
+    .box-container {
+        width: 260px;
+        padding: 0 15px 0 15px;
+        margin: 15px 0 15px 10px;
+    }
+    
+    button {
+         width: 290px;
+        }
+
+}
+
+@media (max-width: 375px){
+    body {
+        background-image: url("images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+    }
+}
