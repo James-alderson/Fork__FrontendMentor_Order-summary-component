@@ -6,7 +6,7 @@ body{
     align-items: center;
     font-family: Red Hat Display;
    
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .container{
@@ -22,7 +22,7 @@ body{
 .hero-image{
     margin: 0;
     border-radius: 20px 20px 0 0;
-    
+    width: 100%;
 } 
 
 .content-container {  
@@ -90,7 +90,7 @@ body{
 }
 
 button {
-text-align: center;
+ text-align: center;
  margin: 10px 0;
  border: none;
  border-radius: 10px;
@@ -103,6 +103,7 @@ text-align: center;
  background-color: rgba(56,42,225,255);
  box-shadow:  0 25px 15px -10px #dbd8fa;
  cursor: pointer;
+ width: 100%;
 }
 
 button:hover{
@@ -175,11 +176,6 @@ button:hover{
         padding: 0 15px 0 15px;
         margin: 15px 0;
     }
-
-    button {
-         width: 320px;
-        }
-
 }
 
 @media (max-width:400px){
@@ -203,11 +199,6 @@ button:hover{
         padding: 0 15px 0 15px;
         margin: 15px 0 15px 10px;
     }
-    
-    button {
-         width: 290px;
-        }
-
 }
 
 @media (max-width: 375px){
